@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		488FA5C721447B7A009B92AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5C621447B7A009B92AB /* AppDelegate.swift */; };
-		488FA5C921447B7A009B92AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5C821447B7A009B92AB /* ViewController.swift */; };
-		488FA5CC21447B7A009B92AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488FA5CA21447B7A009B92AB /* Main.storyboard */; };
 		488FA5CE21447B7C009B92AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488FA5CD21447B7C009B92AB /* Assets.xcassets */; };
 		488FA5D121447B7C009B92AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488FA5CF21447B7C009B92AB /* LaunchScreen.storyboard */; };
 		488FA5DC21447B7C009B92AB /* MobileMoneyPaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5DB21447B7C009B92AB /* MobileMoneyPaymentTests.swift */; };
+		488FA5E821447CD0009B92AB /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5E721447CD0009B92AB /* WebServices.swift */; };
+		488FA5EA21447CE9009B92AB /* WebServiceDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5E921447CE9009B92AB /* WebServiceDispatcher.swift */; };
+		488FA5EC21447D0A009B92AB /* WebServiceDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5EB21447D0A009B92AB /* WebServiceDelegates.swift */; };
+		488FA5EE21447D1A009B92AB /* MomoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5ED21447D1A009B92AB /* MomoResponse.swift */; };
+		488FA5F021447D2B009B92AB /* MomoPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5EF21447D2B009B92AB /* MomoPaymentViewController.swift */; };
+		488FA5F221447D44009B92AB /* MomoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5F121447D44009B92AB /* MomoManager.swift */; };
+		488FA5F821448330009B92AB /* MomoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5F721448330009B92AB /* MomoObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +33,19 @@
 /* Begin PBXFileReference section */
 		488FA5C321447B7A009B92AB /* MobileMoneyPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMoneyPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488FA5C621447B7A009B92AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		488FA5C821447B7A009B92AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		488FA5CB21447B7A009B92AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		488FA5CD21447B7C009B92AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		488FA5D021447B7C009B92AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		488FA5D221447B7C009B92AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		488FA5D721447B7C009B92AB /* MobileMoneyPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMoneyPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		488FA5DB21447B7C009B92AB /* MobileMoneyPaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMoneyPaymentTests.swift; sourceTree = "<group>"; };
 		488FA5DD21447B7C009B92AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488FA5E721447CD0009B92AB /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		488FA5E921447CE9009B92AB /* WebServiceDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceDispatcher.swift; sourceTree = "<group>"; };
+		488FA5EB21447D0A009B92AB /* WebServiceDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceDelegates.swift; sourceTree = "<group>"; };
+		488FA5ED21447D1A009B92AB /* MomoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoResponse.swift; sourceTree = "<group>"; };
+		488FA5EF21447D2B009B92AB /* MomoPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoPaymentViewController.swift; sourceTree = "<group>"; };
+		488FA5F121447D44009B92AB /* MomoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoManager.swift; sourceTree = "<group>"; };
+		488FA5F721448330009B92AB /* MomoObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +87,8 @@
 		488FA5C521447B7A009B92AB /* MobileMoneyPayment */ = {
 			isa = PBXGroup;
 			children = (
+				488FA5E621447B9B009B92AB /* MoMoModule */,
 				488FA5C621447B7A009B92AB /* AppDelegate.swift */,
-				488FA5C821447B7A009B92AB /* ViewController.swift */,
-				488FA5CA21447B7A009B92AB /* Main.storyboard */,
 				488FA5CD21447B7C009B92AB /* Assets.xcassets */,
 				488FA5CF21447B7C009B92AB /* LaunchScreen.storyboard */,
 				488FA5D221447B7C009B92AB /* Info.plist */,
@@ -94,6 +103,53 @@
 				488FA5DD21447B7C009B92AB /* Info.plist */,
 			);
 			path = MobileMoneyPaymentTests;
+			sourceTree = "<group>";
+		};
+		488FA5E621447B9B009B92AB /* MoMoModule */ = {
+			isa = PBXGroup;
+			children = (
+				488FA5F621448157009B92AB /* Data Entities */,
+				488FA5F521447F12009B92AB /* Views */,
+				488FA5F421447EEB009B92AB /* Manager */,
+				488FA5F321447E7C009B92AB /* Services */,
+			);
+			path = MoMoModule;
+			sourceTree = "<group>";
+		};
+		488FA5F321447E7C009B92AB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				488FA5E721447CD0009B92AB /* WebServices.swift */,
+				488FA5E921447CE9009B92AB /* WebServiceDispatcher.swift */,
+				488FA5EB21447D0A009B92AB /* WebServiceDelegates.swift */,
+			);
+			name = Services;
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		488FA5F421447EEB009B92AB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				488FA5F121447D44009B92AB /* MomoManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		488FA5F521447F12009B92AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				488FA5EF21447D2B009B92AB /* MomoPaymentViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		488FA5F621448157009B92AB /* Data Entities */ = {
+			isa = PBXGroup;
+			children = (
+				488FA5ED21447D1A009B92AB /* MomoResponse.swift */,
+				488FA5F721448330009B92AB /* MomoObject.swift */,
+			);
+			path = "Data Entities";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +235,6 @@
 			files = (
 				488FA5D121447B7C009B92AB /* LaunchScreen.storyboard in Resources */,
 				488FA5CE21447B7C009B92AB /* Assets.xcassets in Resources */,
-				488FA5CC21447B7A009B92AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +252,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				488FA5C921447B7A009B92AB /* ViewController.swift in Sources */,
+				488FA5E821447CD0009B92AB /* WebServices.swift in Sources */,
+				488FA5F221447D44009B92AB /* MomoManager.swift in Sources */,
+				488FA5F821448330009B92AB /* MomoObject.swift in Sources */,
+				488FA5EC21447D0A009B92AB /* WebServiceDelegates.swift in Sources */,
+				488FA5EA21447CE9009B92AB /* WebServiceDispatcher.swift in Sources */,
+				488FA5F021447D2B009B92AB /* MomoPaymentViewController.swift in Sources */,
 				488FA5C721447B7A009B92AB /* AppDelegate.swift in Sources */,
+				488FA5EE21447D1A009B92AB /* MomoResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +282,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		488FA5CA21447B7A009B92AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				488FA5CB21447B7A009B92AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		488FA5CF21447B7C009B92AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -359,7 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25C4CBT4M3;
+				DEVELOPMENT_TEAM = 83M7A6W736;
 				INFOPLIST_FILE = MobileMoneyPayment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -377,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 25C4CBT4M3;
+				DEVELOPMENT_TEAM = 83M7A6W736;
 				INFOPLIST_FILE = MobileMoneyPayment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
