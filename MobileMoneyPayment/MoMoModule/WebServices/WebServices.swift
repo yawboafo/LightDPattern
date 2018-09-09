@@ -8,6 +8,9 @@
 
 import Foundation
 import SwiftyJSON
+
+
+
 struct URLString {
     var url: String?
     var urlType: RequestType?
@@ -35,51 +38,31 @@ class WebServices {
         }
         
         var urlRequest = URLRequest(url: url)
-        
         urlRequest.httpMethod = httpMethod
         urlRequest.allHTTPHeaderFields = header
        
-        
-        
-        
-        
         if let jsonData =  try? parameters.rawData(options: .prettyPrinted) {
             urlRequest.httpBody = jsonData
         }
         
-        
-        
         let config = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
         
-       
-        
-        
-        if delegate != nil{
+       if delegate != nil{
             
+            //Dsipatch Information to the Managers when request begins
             DispatchQueue.main.async {
                 WebServiceDispatcher.resquestBegan(requestType: urlString.urlType!, delegate: delegate)
             }
             
-            
-            print("REQUEST URL : \(urlString)")
-            print("REQUEST METHOD : \(httpMethod)")
-            print("REQUEST PAYLOAD : \(String(describing: parameters ))")
-            print("REQUEST HEADERS : \(header)")
         }
         
         // make the request
         let task = session.dataTask(with: urlRequest) {
             (data, response, error) in
+        
             
-            
-            
-            print("raw data \(data)")
-            print("raw data JSON \(JSON(data))")
-            print("response data \(response?.description)")
-            print("errror data \(error.debugDescription)")
-            
-            
+             //Dsipatch Information to the Managers when request receives responses
             DispatchQueue.main.async {
                 WebServiceDispatcher.responseDispatcher(requestType: urlString.urlType!, response: JSON(data as Any), delegate: delegate)
             }

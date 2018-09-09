@@ -8,10 +8,63 @@
 
 import Foundation
 import Disk
-class MomoManager{
+
+
+
+protocol MomoManagerDelegate {
+    func  momopayBegan()
+    func  momopaymentFailed(error: String)
+    func  momopaymentFailed()
+    func  momopaymentSuccess(response: MoMoResponse)
+    func  phoneNumberAuthentication(value: Bool)
+}
+
+
+class MomoManager: NSObject, WebServiceDelegates{
     
     
+    var transporter: MomoManagerDelegate?
+    
+    // WebServiceDelegates protocol methods to track request to payment webservice
+    
+    func momopaymentRequestBegan() {
+        print("payment began")
+        transporter?.momopayBegan()
+    }
+    
+    func momopaymentRequestFailedWithError(error: MomoErrorResponse) {
+        print("error :  \(error)")
+        transporter?.momopaymentFailed(error: error.errorMessage)
+    }
+    
+    func momopaymentRequestCompleted(response: MoMoResponse) {
+        print("response : \(response)")
+        transporter?.momopaymentSuccess(response: response)
+    }
+    
+    func momopaymentRequestFailedtoProcessResponse() {
+        print("Mobile money payment failed ")
+        transporter?.momopaymentFailed()
+    }
+    
+    
+    
+    
+    func payByMomo(payload: [String:Any])  {
+        
+        WebServices.payMomo(withPayload: payload, andRegisteredRequestHandler: self)
+        
+    }
   
+    
+    func validDatePhone(phone: String) {
+        
+        if phone.count == 10 {
+            transporter?.phoneNumberAuthentication(value: true)
+        }else{
+           transporter?.phoneNumberAuthentication(value: false)
+        }
+    }
     
     
     

@@ -18,7 +18,7 @@
 		488FA5EE21447D1A009B92AB /* MomoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5ED21447D1A009B92AB /* MomoResponse.swift */; };
 		488FA5F021447D2B009B92AB /* MomoPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5EF21447D2B009B92AB /* MomoPaymentViewController.swift */; };
 		488FA5F221447D44009B92AB /* MomoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5F121447D44009B92AB /* MomoManager.swift */; };
-		488FA5F821448330009B92AB /* MomoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5F721448330009B92AB /* MomoObject.swift */; };
+		488FA5F821448330009B92AB /* Momo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5F721448330009B92AB /* Momo.swift */; };
 		74B4E443BF4BB159E4175B12 /* Pods_MobileMoneyPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751041CF9DF0B1C882884AE /* Pods_MobileMoneyPayment.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,7 @@
 		488FA5ED21447D1A009B92AB /* MomoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoResponse.swift; sourceTree = "<group>"; };
 		488FA5EF21447D2B009B92AB /* MomoPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoPaymentViewController.swift; sourceTree = "<group>"; };
 		488FA5F121447D44009B92AB /* MomoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoManager.swift; sourceTree = "<group>"; };
-		488FA5F721448330009B92AB /* MomoObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoObject.swift; sourceTree = "<group>"; };
+		488FA5F721448330009B92AB /* Momo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Momo.swift; sourceTree = "<group>"; };
 		6F956E296DEEA627339820B4 /* Pods-MobileMoneyPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileMoneyPayment.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileMoneyPayment/Pods-MobileMoneyPayment.release.xcconfig"; sourceTree = "<group>"; };
 		7751041CF9DF0B1C882884AE /* Pods_MobileMoneyPayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileMoneyPayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B46E9CDF2E91B64927B3C7C /* Pods-MobileMoneyPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileMoneyPayment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileMoneyPayment/Pods-MobileMoneyPayment.debug.xcconfig"; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				488FA5ED21447D1A009B92AB /* MomoResponse.swift */,
-				488FA5F721448330009B92AB /* MomoObject.swift */,
+				488FA5F721448330009B92AB /* Momo.swift */,
 			);
 			path = "Data Entities";
 			sourceTree = "<group>";
@@ -350,7 +350,7 @@
 			files = (
 				488FA5E821447CD0009B92AB /* WebServices.swift in Sources */,
 				488FA5F221447D44009B92AB /* MomoManager.swift in Sources */,
-				488FA5F821448330009B92AB /* MomoObject.swift in Sources */,
+				488FA5F821448330009B92AB /* Momo.swift in Sources */,
 				488FA5EC21447D0A009B92AB /* WebServiceDelegates.swift in Sources */,
 				488FA5EA21447CE9009B92AB /* WebServiceDispatcher.swift in Sources */,
 				488FA5F021447D2B009B92AB /* MomoPaymentViewController.swift in Sources */,

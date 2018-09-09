@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct Momo: Codable {
+    let amount, phone: String
+}

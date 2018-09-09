@@ -8,13 +8,21 @@
 
 import Foundation
 
+
+
 struct MoMoResponse: Codable {
-    
-    
+    let code, status, message: String
+    let momo: Momo
 }
 
 
 
-struct  MomoErrorResponse: Codable{
-    
+
+
+
+
+
+struct MomoErrorResponse: Codable {
+    let code, status, errorMessage: String
 }
+

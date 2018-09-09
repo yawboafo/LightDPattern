@@ -17,6 +17,7 @@ class WebServiceDispatcher: NSObject {
         switch requestType {
         case .momorequest:
             
+            // Notifies the manager class  that a particular module Resquest has began
             delegate.momopaymentRequestBegan()
        }
         
@@ -28,12 +29,16 @@ class WebServiceDispatcher: NSObject {
             
         case . momorequest :
            
-            //Received response Data from WebService:  we decode data from json to a class object and save in Cache
+            //Received response Data from WebServicer:  we decode data from Json to a class object
             let momoResponse = try?  JSONDecoder().decode(MoMoResponse.self, from: response.rawData())
             if momoResponse != nil {
                 
+                //Notifies the Manager class via WebServiceDelegates of the request status
                 delegate.momopaymentRequestCompleted(response: momoResponse!)
             }else{
+                
+                //Notifies the Manager class via WebServiceDelegates of the request errors
+                
                 let errorResponse = try?  JSONDecoder().decode(MomoErrorResponse.self, from: response.rawData())
                 if errorResponse != nil {
                     delegate.momopaymentRequestFailedWithError(error: errorResponse!)
