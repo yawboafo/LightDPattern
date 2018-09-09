@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11DF4B4154451646052CD072 /* Pods_MobileMoneyPaymentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E947D8FC095FA8641DD36D /* Pods_MobileMoneyPaymentTests.framework */; };
 		488FA5C721447B7A009B92AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5C621447B7A009B92AB /* AppDelegate.swift */; };
 		488FA5CE21447B7C009B92AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488FA5CD21447B7C009B92AB /* Assets.xcassets */; };
 		488FA5D121447B7C009B92AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488FA5CF21447B7C009B92AB /* LaunchScreen.storyboard */; };
@@ -18,6 +19,7 @@
 		488FA5F021447D2B009B92AB /* MomoPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5EF21447D2B009B92AB /* MomoPaymentViewController.swift */; };
 		488FA5F221447D44009B92AB /* MomoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5F121447D44009B92AB /* MomoManager.swift */; };
 		488FA5F821448330009B92AB /* MomoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FA5F721448330009B92AB /* MomoObject.swift */; };
+		74B4E443BF4BB159E4175B12 /* Pods_MobileMoneyPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7751041CF9DF0B1C882884AE /* Pods_MobileMoneyPayment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16C72C77D7D184E0D739EBA1 /* Pods-MobileMoneyPaymentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileMoneyPaymentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileMoneyPaymentTests/Pods-MobileMoneyPaymentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3651594ECAA485FDE065CA96 /* Pods-MobileMoneyPaymentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileMoneyPaymentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileMoneyPaymentTests/Pods-MobileMoneyPaymentTests.release.xcconfig"; sourceTree = "<group>"; };
 		488FA5C321447B7A009B92AB /* MobileMoneyPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMoneyPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488FA5C621447B7A009B92AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		488FA5CD21447B7C009B92AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +50,10 @@
 		488FA5EF21447D2B009B92AB /* MomoPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoPaymentViewController.swift; sourceTree = "<group>"; };
 		488FA5F121447D44009B92AB /* MomoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoManager.swift; sourceTree = "<group>"; };
 		488FA5F721448330009B92AB /* MomoObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomoObject.swift; sourceTree = "<group>"; };
+		6F956E296DEEA627339820B4 /* Pods-MobileMoneyPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileMoneyPayment.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileMoneyPayment/Pods-MobileMoneyPayment.release.xcconfig"; sourceTree = "<group>"; };
+		7751041CF9DF0B1C882884AE /* Pods_MobileMoneyPayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileMoneyPayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B46E9CDF2E91B64927B3C7C /* Pods-MobileMoneyPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileMoneyPayment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileMoneyPayment/Pods-MobileMoneyPayment.debug.xcconfig"; sourceTree = "<group>"; };
+		E5E947D8FC095FA8641DD36D /* Pods_MobileMoneyPaymentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileMoneyPaymentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B4E443BF4BB159E4175B12 /* Pods_MobileMoneyPayment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DF4B4154451646052CD072 /* Pods_MobileMoneyPaymentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +82,8 @@
 				488FA5C521447B7A009B92AB /* MobileMoneyPayment */,
 				488FA5DA21447B7C009B92AB /* MobileMoneyPaymentTests */,
 				488FA5C421447B7A009B92AB /* Products */,
+				7D0C913C3B46BE48C5D74DE1 /* Pods */,
+				A3E8316AB63C358A1970CDB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +164,26 @@
 			path = "Data Entities";
 			sourceTree = "<group>";
 		};
+		7D0C913C3B46BE48C5D74DE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B46E9CDF2E91B64927B3C7C /* Pods-MobileMoneyPayment.debug.xcconfig */,
+				6F956E296DEEA627339820B4 /* Pods-MobileMoneyPayment.release.xcconfig */,
+				16C72C77D7D184E0D739EBA1 /* Pods-MobileMoneyPaymentTests.debug.xcconfig */,
+				3651594ECAA485FDE065CA96 /* Pods-MobileMoneyPaymentTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3E8316AB63C358A1970CDB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7751041CF9DF0B1C882884AE /* Pods_MobileMoneyPayment.framework */,
+				E5E947D8FC095FA8641DD36D /* Pods_MobileMoneyPaymentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 488FA5E021447B7C009B92AB /* Build configuration list for PBXNativeTarget "MobileMoneyPayment" */;
 			buildPhases = (
+				6FF0D6728B9D3843CBD0397D /* [CP] Check Pods Manifest.lock */,
 				488FA5BF21447B7A009B92AB /* Sources */,
 				488FA5C021447B7A009B92AB /* Frameworks */,
 				488FA5C121447B7A009B92AB /* Resources */,
+				54408E6253081D26A776C29C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 488FA5E321447B7C009B92AB /* Build configuration list for PBXNativeTarget "MobileMoneyPaymentTests" */;
 			buildPhases = (
+				FFB2155C78CB26FBAAA5E922 /* [CP] Check Pods Manifest.lock */,
 				488FA5D321447B7C009B92AB /* Sources */,
 				488FA5D421447B7C009B92AB /* Frameworks */,
 				488FA5D521447B7C009B92AB /* Resources */,
@@ -246,6 +281,67 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54408E6253081D26A776C29C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobileMoneyPayment/Pods-MobileMoneyPayment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileMoneyPayment/Pods-MobileMoneyPayment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF0D6728B9D3843CBD0397D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileMoneyPayment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFB2155C78CB26FBAAA5E922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileMoneyPaymentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		488FA5BF21447B7A009B92AB /* Sources */ = {
@@ -409,6 +505,7 @@
 		};
 		488FA5E121447B7C009B92AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B46E9CDF2E91B64927B3C7C /* Pods-MobileMoneyPayment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -427,6 +524,7 @@
 		};
 		488FA5E221447B7C009B92AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F956E296DEEA627339820B4 /* Pods-MobileMoneyPayment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +543,7 @@
 		};
 		488FA5E421447B7C009B92AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C72C77D7D184E0D739EBA1 /* Pods-MobileMoneyPaymentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +565,7 @@
 		};
 		488FA5E521447B7C009B92AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3651594ECAA485FDE065CA96 /* Pods-MobileMoneyPaymentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

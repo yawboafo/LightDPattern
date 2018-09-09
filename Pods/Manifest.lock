@@ -1,0 +1,24 @@
+PODS:
+  - Disk (0.3.3)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Disk (~> 0.3.3)
+  - SnapKit (~> 4.0.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Disk
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Disk: d1f55cd61f6ca20f368232d0c6e37e3c3dfcb63e
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 3248b0613e9998cc03bec0988090873241c72def
+
+COCOAPODS: 1.5.3

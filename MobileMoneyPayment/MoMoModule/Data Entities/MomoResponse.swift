@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+struct MoMoResponse: Codable {
+    
+    
+}
+
+
+
+struct  MomoErrorResponse: Codable{
+    
+}

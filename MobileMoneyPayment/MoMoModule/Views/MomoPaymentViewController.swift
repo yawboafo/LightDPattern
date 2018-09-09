@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import  UIKit
+
+class MomoPaymentViewController: UIViewController {
+    
+    
+    override func viewDidLoad() {
+        
+        self.view.backgroundColor = UIColor.yellow
+        
+    }
+    
+}

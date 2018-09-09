@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+import SwiftyJSON
+import Disk
+
+
+protocol WebServiceDelegates {
+    
+    func momopaymentRequestBegan()
+    func momopaymentRequestFailedWithError(error: MomoErrorResponse )
+    func momopaymentRequestCompleted(response: MoMoResponse)
+    func momopaymentRequestFailedtoProcessResponse()
+    
+    
+}
